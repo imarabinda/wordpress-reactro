@@ -1,0 +1,19 @@
+{
+    "name": "wordpress-reactro/arabinda",
+    "type": "project",
+    "authors": [
+        {
+            "name": "imarabinda",
+            "email": "arabinda.gamerx@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "classmap": [
+            "includes/rest-api/"
+          ]
+    }
+    
+}

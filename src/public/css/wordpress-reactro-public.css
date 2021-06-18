@@ -1,0 +1,157 @@
+
+/***********************
+// Cookie Popup
+***********************/
+
+.wordpress-reactro-popup {
+  position: fixed;
+  font-size: 13px;
+  line-height: 17px;
+  z-index: 999999999;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wordpress-reactro-popup-container {
+  display: none;
+  padding: 20px;
+}
+
+.wordpress-reactro-popup p {
+  margin: 0;
+}
+
+.wordpress-reactro-popup-full-width {
+  width: 100%;
+  text-align: center;
+}
+
+.wordpress-reactro-popup-top {
+  top: 0;
+}
+
+.wordpress-reactro-popup-bottom {
+  bottom: 0;
+}  
+
+.wordpress-reactro-popup-full-width {
+  width: 100%;
+  text-align: center;
+}
+
+.wordpress-reactro-popup-privacy-center, .wordpress-reactro-popup-read-more, .wordpress-reactro-popup-privacy-settings-text {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+.wordpress-reactro-popup-agree, .wordpress-reactro-popup-decline {
+    padding: 8px 15px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+a.wordpress-reactro-popup-agree:hover, a.wordpress-reactro-popup-decline:hover, a.wordpress-reactro-popup-agree:active, a.wordpress-reactro-popup-decline:active {
+  color: #FFFFFF;
+}
+
+.wordpress-reactro-popup-agree {
+    background: #FF5722;
+    float: left;
+}
+
+.wordpress-reactro-popup-decline {
+    background: #9E9E9E;
+    float: right;
+}
+
+.wordpress-reactro-popup-full-width .wordpress-reactro-popup-agree, .wordpress-reactro-popup-full-width .wordpress-reactro-popup-decline{
+  float: none;
+}
+
+.wordpress-reactro-popup-actions {
+    margin-top: 20px;
+}
+
+.wordpress-reactro-popup-actions-links a {
+    display: inline;
+}
+
+.wordpress-reactro-popup-overlay .wordpress-reactro-popup-container {
+  position: fixed;
+  z-index: 99999;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  padding: 35px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.wordpress-reactro-popup-overlay-backdrop {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: none;
+}
+
+.wordpress-reactro-popup-actions a, .wordpress-reactro-popup-actions a:hover, .wordpress-reactro-popup-actions a:active {
+  font-weight: bold;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.wordpress-reactro-popup-small {
+  width: 400px;
+  margin-right: 30px;
+  right: 0;
+  bottom: 20px;
+}
+
+.wordpress-reactro-popup-small .wordpress-reactro-popup-agree {
+  display: block;
+}
+
+.wordpress-reactro-popup-small.wordpress-reactro-popup-top {
+    bottom: auto;
+    top: 30px;
+}
+
+.wordpress-reactro-popup-close {
+  position: absolute;
+  top: -12.5px;
+  right: -12.5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.wordpress-reactro-popup-full-width .wordpress-reactro-popup-close {
+  top: 10px;
+  right: 10px;
+}
+
+@media(max-width: 768px) {
+  .wordpress-reactro-popup-small {
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+  }
+}
